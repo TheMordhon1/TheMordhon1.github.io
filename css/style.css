@@ -5,6 +5,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+html {
+overflow-x:hidden
+}
 
 body {
     background: url(../img/img-profile/bg.jpg) no-repeat center;
