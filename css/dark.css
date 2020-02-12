@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+html {
+overflow-x:hidden
+}
+
 body {
     background: url(../img/img-profile/bg.jpg) no-repeat center;
     background-size: cover;
