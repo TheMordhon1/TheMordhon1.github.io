@@ -1,384 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Design Light</title>
-    <link rel="icon" href="img/favicon.png" />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/main1.min.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
-  </head>
 
-  <body data-spy="scroll" data-target="#navbar" data-offset="50">
-    <header>
-      <nav id="navbar">
-        <a
-          href="index-light.html"
-          class="logo"
-          data-aos="fade-down-right"
-          data-aos-duration="3000"
-          ><img src="img/logo.svg" alt="Muhamad Romdon"
-        /></a>
-        <a
-          href="index.html"
-          class="logo-wide"
-          data-aos="fade-down-right"
-          data-aos-duration="3000"
-          ><img src="img/logo-light.svg" alt="Muhamad Romdon"
-        /></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Page - Muhamad Romdon</title>
+  <link rel="icon" href="img/favicon.png" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/main1.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+</head>
 
-        <ul class="nav-links">
-          <li>
-            <a
-              href="index-light.html"
-              class="active"
-              data-aos="fade-down-left"
-              data-aos-duration="1500"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a href="#about" data-aos="fade-down-left" data-aos-duration="2200"
-              >About</a
-            >
-          </li>
-          <li>
-            <a
-              href="#contact"
-              data-aos="fade-down-left"
-              data-aos-duration="3000"
-              data-aos-offset="50"
-              >Contact</a
-            >
-          </li>
-        </ul>
-        <!-- <a href="" data-aos="fade-down-left" data-aos-duration="2200"><i class="fa fa-bars"></i></a> -->
+<body data-spy="scroll" data-target="#navbar" data-offset="50">
+  <header>
+    <nav id="navbar">
+      <a href="index-light.html" class="logo" data-aos="fade-down-right" data-aos-duration="3000"><img
+          src="img/logo.svg" alt="Muhamad Romdon" /></a>
+      <a href="index.html" class="logo-wide" data-aos="fade-down-right" data-aos-duration="3000"><img
+          src="img/logo-light.svg" alt="Muhamad Romdon" /></a>
 
-        <div class="burger">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
-      </nav>
-    </header>
+      <ul class="nav-links">
+        <li>
+          <a href="index-light.html" class="active" data-aos="fade-down-left" data-aos-duration="1500">Home</a>
+        </li>
+        <li>
+          <a href="about-light.html" data-aos="fade-down-left" data-aos-duration="2200">About</a>
+        </li>
+        <li>
+          <a href="contact-light.html" data-aos="fade-down-left" data-aos-duration="3000"
+            data-aos-offset="50">Contact</a>
+        </li>
+      </ul>
+      <!-- <a href="" data-aos="fade-down-left" data-aos-duration="2200"><i class="fa fa-bars"></i></a> -->
 
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="hero-content">
+      <div class="left">
+        <img src="img/circle.svg" alt="" data-aos="zoom-in-right" data-aos-duration="2000" />
+        <h1 class="heading1" data-aos="zoom-in" data-aos-duration="2000">
+          Welcome
+        </h1>
+        <p data-aos="zoom-in" data-aos-duration="3000">
+          As a frontend developer, I've always found it difficult to draw the
+          line between what is considered to be frontend and backend
+          development. Apparently I'm not alone in this!
+        </p>
+        <a href="profile-light.html" class="btn-primary" data-aos="fade-up" data-aos-offset="50"
+          data-aos-duration="3000">See My Profile</a>
+      </div>
+
+      <div class="right">
+        <img src="img/illustration.svg" alt="" data-aos="zoom-in" data-aos-duration="3000" />
+        <div class="rectangle" data-aos="fade-up" data-aos-duration="1000"></div>
+        <div class="overlay-rectangle" data-aos="fade-up" data-aos-duration="2000"></div>
+      </div>
+      <a href="index.html" class="change-theme" data-aos="zoom-in" data-aos-offset="50" data-aos-duration="2000">Dark
+        Mode</a>
+    </div>
+  </div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fa fa-arrow-up"></i>
+  </button>
+
+  <!-- About_area-->
+
+  <section class="about" id="about">
     <div class="container">
-      <div class="hero-content">
-        <div class="left">
-          <img
-            src="img/circle.svg"
-            alt=""
-            data-aos="zoom-in-right"
-            data-aos-duration="2000"
-          />
-          <h1 class="heading1" data-aos="zoom-in" data-aos-duration="2000">
-            Welcome
-          </h1>
+      <div class="row">
+        <div class="left col-lg-6 col-sm-12 mt-md-3">
+          <img src="img/about-svg-light.svg" alt="" data-aos="zoom-in" data-aos-duration="3000" />
+        </div>
+        <div class="right-content col-md-12 col-lg-6 col-sm-12">
+          <img src="img/about-decor-right.svg" class="decor-about" alt="" data-aos="zoom-in-left"
+            data-aos-duration="2000" />
+          <h2 class="heading2" data-aos="zoom-in" data-aos-duration="2000">
+            About Me
+          </h2>
           <p data-aos="zoom-in" data-aos-duration="3000">
-            As a frontend developer, I've always found it difficult to draw the
-            line between what is considered to be frontend and backend
-            development. Apparently I'm not alone in this!
+            My first job in a digital agency involved me working with HTML,
+            Sass, and Coffeescript to build websites that match as closely as
+            possible to the designs provided by the design team.
           </p>
-          <a
-            href="profile-light.html"
-            class="btn-primary"
-            data-aos="fade-up"
-            data-aos-offset="50"
-            data-aos-duration="3000"
-            >See My Profile</a
-          >
+          <a href="img/illustration.svg" class="btn-primary" data-aos="fade-up" data-aos-offset="50"
+            data-aos-duration="3000" download=""><i class="fa fa-download i-btn"></i>Download CV</a>
+          <img src="img/tools/top-polygon.svg" alt="" class="img-divider" />
         </div>
-
-        <div class="right">
-          <img
-            src="img/illustration.svg"
-            alt=""
-            data-aos="zoom-in"
-            data-aos-duration="3000"
-          />
-          <div
-            class="rectangle"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          ></div>
-          <div
-            class="overlay-rectangle"
-            data-aos="fade-up"
-            data-aos-duration="2000"
-          ></div>
-        </div>
-        <a
-          href="index.html"
-          class="change-theme"
-          data-aos="zoom-in"
-          data-aos-offset="50"
-          data-aos-duration="2000"
-          >Dark Mode</a
-        >
       </div>
     </div>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">
-      <i class="fa fa-arrow-up"></i>
-    </button>
+  </section>
 
-    <!-- About_area-->
-
-    <section class="about" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="left col-lg-6 col-sm-12 mt-md-3">
-            <img
-              src="img/about-svg-light.svg"
-              alt=""
-              data-aos="zoom-in"
-              data-aos-duration="3000"
-            />
-          </div>
-          <div class="right-content col-md-12 col-lg-6 col-sm-12">
-            <img
-              src="img/about-decor-right.svg"
-              class="decor-about"
-              alt=""
-              data-aos="zoom-in-left"
-              data-aos-duration="2000"
-            />
-            <h2 class="heading2" data-aos="zoom-in" data-aos-duration="2000">
-              About Me
-            </h2>
-            <p data-aos="zoom-in" data-aos-duration="3000">
-              My first job in a digital agency involved me working with HTML,
-              Sass, and Coffeescript to build websites that match as closely as
-              possible to the designs provided by the design team.
+  <!--Skill_area-->
+  <section class="skill_area">
+    <div class="container">
+      <div class="row">
+        <img src="img/circle.svg" class="decor" alt="" data-aos="zoom-in-right" data-aos-duration="2000"
+          data-aos-offset="30" />
+        <div class="col-lg-12">
+          <div class="main_title">
+            <p class="top_text" data-aos="zoom-in-right" data-aos-duration="2500" data-aos-offset="30">
+              Skills <span></span>
             </p>
-            <a
-              href="img/illustration.svg"
-              class="btn-primary"
-              data-aos="fade-up"
-              data-aos-offset="50"
-              data-aos-duration="3000"
-              download=""
-              ><i class="fa fa-download i-btn"></i>Download CV</a
-            >
-            <img src="img/tools/top-polygon.svg" alt="" class="img-divider" />
+            <h2 data-aos="zoom-in-right" data-aos-duration="3000" data-aos-offset="30">
+              What Skill That I <br />
+              Offer To You
+            </h2>
           </div>
         </div>
       </div>
-    </section>
 
-    <!--Skill_area-->
-    <section class="skill_area">
-      <div class="container">
-        <div class="row">
-          <img
-            src="img/circle.svg"
-            class="decor"
-            alt=""
-            data-aos="zoom-in-right"
-            data-aos-duration="2000"
-            data-aos-offset="30"
-          />
-          <div class="col-lg-12">
-            <div class="main_title">
-              <p
-                class="top_text"
-                data-aos="zoom-in-right"
-                data-aos-duration="2500"
-                data-aos-offset="30"
-              >
-                Skills <span></span>
-              </p>
-              <h2
-                data-aos="zoom-in-right"
-                data-aos-duration="3000"
-                data-aos-offset="30"
-              >
-                What Skill That I <br />
-                Offer To You
-              </h2>
-            </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+          <div class="skill_item" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-offset="30">
+            <img src="img/skill1.svg" alt="" />
+            <h4>Web Development</h4>
+            <p>
+              Fruit saw for brought fish forth had ave is man a that their Two
+              he is dominion evening their Fruit saw for brought fish forth
+            </p>
+            <a href="#" class="primary_btn2 mt-35">Learn More</a>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-            <div
-              class="skill_item"
-              data-aos="zoom-in-right"
-              data-aos-duration="1500"
-              data-aos-offset="30"
-            >
-              <img src="img/skill1.svg" alt="" />
-              <h4>Web Development</h4>
-              <p>
-                Fruit saw for brought fish forth had ave is man a that their Two
-                he is dominion evening their Fruit saw for brought fish forth
-              </p>
-              <a href="#" class="primary_btn2 mt-35">Learn More</a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-            <div
-              class="skill_item"
-              data-aos="zoom-in"
-              data-aos-duration="2000"
-              data-aos-offset="30"
-            >
-              <img src="img/skill2.svg" alt="" />
-              <h4>UX/UI Design</h4>
-              <p>
-                Fruit saw for brought fish forth had ave is man a that their Two
-                he is dominion evening their Fruit saw for brought fish forth
-              </p>
-              <a href="#" class="primary_btn2 mt-35">Learn More</a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-            <div
-              class="skill_item"
-              data-aos="zoom-in-left"
-              data-aos-duration="2500"
-              data-aos-offset="30"
-            >
-              <img src="img/skill3.svg" alt="" />
-              <h4>Web Design</h4>
-              <p>
-                Fruit saw for brought fish forth had ave is man a that their Two
-                he is dominion evening their Fruit saw for brought fish forth
-              </p>
-              <a href="#" class="primary_btn2 mt-35">Learn More</a>
-            </div>
-          </div>
-          <img
-            src="/img/about-decor-right.svg"
-            class="right-decor"
-            alt=""
-            data-aos="zoom-in-left"
-            data-aos-duration="2000"
-            data-aos-offset="30"
-          />
-        </div>
-      </div>
-    </section>
-
-    <!-- Tools_area -->
-    <div class="tools">
-      <img
-        src="img/tools/top-polygon.svg"
-        class="decor-right"
-        alt=""
-        data-aos="zoom-in-right"
-        data-aos-duration="2000"
-        data-aos-offset="30"
-      />
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <div class="main_title">
-              <p
-                class="top_text"
-                data-aos="zoom-in-right"
-                data-aos-duration="2500"
-                data-aos-offset="30"
-              >
-                tools <span></span>
-              </p>
-            </div>
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+          <div class="skill_item" data-aos="zoom-in" data-aos-duration="2000" data-aos-offset="30">
+            <img src="img/skill2.svg" alt="" />
+            <h4>UX/UI Design</h4>
+            <p>
+              Fruit saw for brought fish forth had ave is man a that their Two
+              he is dominion evening their Fruit saw for brought fish forth
+            </p>
+            <a href="#" class="primary_btn2 mt-35">Learn More</a>
           </div>
         </div>
-        <div class="row">
-          <div
-            class="box-logo text-center col-lg-12"
-            data-aos="zoom-in-right"
-            data-aos-duration="2500"
-            data-aos-offset="30"
-          >
-            <img src="img/tools/figma.svg" alt="" />
-            <img src="img/tools/html.svg" alt="" />
-            <img src="img/tools/css.svg" alt="" />
-            <img src="img/tools/sass.svg" alt="" />
+
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+          <div class="skill_item" data-aos="zoom-in-left" data-aos-duration="2500" data-aos-offset="30">
+            <img src="img/skill3.svg" alt="" />
+            <h4>Web Design</h4>
+            <p>
+              Fruit saw for brought fish forth had ave is man a that their Two
+              he is dominion evening their Fruit saw for brought fish forth
+            </p>
+            <a href="#" class="primary_btn2 mt-35">Learn More</a>
           </div>
         </div>
-        <img
-          src="img/tools/decor-bottom.svg"
-          class="dots-img"
-          alt=""
-          data-aos="zoom-in"
-          data-aos-duration="3000"
-        />
+        <img src="/img/about-decor-right.svg" class="right-decor" alt="" data-aos="zoom-in-left"
+          data-aos-duration="2000" data-aos-offset="30" />
       </div>
     </div>
+  </section>
 
-    <!-- Footer_area -->
-    <footer>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-8">
-            <img
-              src="img/footer-light.svg"
-              alt=""
-              data-aos="zoom-in-right"
-              data-aos-duration="2500"
-              data-aos-offset="30"
-            />
-          </div>
-          <div class="col-lg-4 col-sm-12 mobile">
-            <div class="main_title">
-              <p
-                class="top_text"
-                data-aos="zoom-in-left"
-                data-aos-duration="2000"
-                data-aos-offset="30"
-              >
-                KEEP IN TOUCH
-              </p>
-              <div
-                class="sci"
-                data-aos="zoom-in"
-                data-aos-duration="2500"
-                data-aos-offset="30"
-              >
-                <a
-                  href="https://www.instagram.com/themordhon1/?hl=en"
-                  target="_blank"
-                >
-                  <i class="fa fa-instagram"></i
-                ></a>
-                <a href="https://wa.me/6287883601467" target="_blank"
-                  ><i class="fa fa-whatsapp"></i
-                ></a>
-                <a href="" target="_blank"><i class="fa fa-envelope"></i></a>
-                <a href="" target="_blank"><i class="fa fa-telegram"></i></a>
-              </div>
-              <p
-                class="bottom_text"
-                data-aos="zoom-in-right"
-                data-aos-duration="3000"
-                data-aos-offset="30"
-              >
-                &copy; Muhamad Romdon 2020
-              </p>
-            </div>
+  <!-- Tools_area -->
+  <div class="tools">
+    <img src="img/tools/top-polygon.svg" class="decor-right" alt="" data-aos="zoom-in-right" data-aos-duration="2000"
+      data-aos-offset="30" />
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="main_title">
+            <p class="top_text" data-aos="zoom-in-right" data-aos-duration="2500" data-aos-offset="30">
+              tools <span></span>
+            </p>
           </div>
         </div>
       </div>
-    </footer>
+      <div class="row">
+        <div class="box-logo text-center col-lg-12" data-aos="zoom-in-right" data-aos-duration="2500"
+          data-aos-offset="30">
+          <img src="img/tools/figma.svg" alt="" />
+          <img src="img/tools/html.svg" alt="" />
+          <img src="img/tools/css.svg" alt="" />
+          <img src="img/tools/sass.svg" alt="" />
+        </div>
+      </div>
+      <img src="img/tools/decor-bottom.svg" class="dots-img" alt="" data-aos="zoom-in" data-aos-duration="3000" />
+    </div>
+  </div>
 
-    <!-- Script -->
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+  <!-- Footer_area -->
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8">
+          <img src="img/footer-light.svg" alt="" data-aos="zoom-in-right" data-aos-duration="2500"
+            data-aos-offset="30" />
+        </div>
+        <div class="col-lg-4 col-sm-12 mobile">
+          <div class="main_title">
+            <p class="top_text" data-aos="zoom-in-left" data-aos-duration="2000" data-aos-offset="30">
+              KEEP IN TOUCH
+            </p>
+            <div class="sci" data-aos="zoom-in" data-aos-duration="2500" data-aos-offset="30">
+              <a href="https://www.instagram.com/themordhon1/?hl=en" target="_blank">
+                <i class="fa fa-instagram"></i></a>
+              <a href="https://wa.me/6287883601467" target="_blank"><i class="fa fa-whatsapp"></i></a>
+              <a href="" target="_blank"><i class="fa fa-envelope"></i></a>
+              <a href="" target="_blank"><i class="fa fa-telegram"></i></a>
+            </div>
+            <p class="bottom_text" data-aos="zoom-in-right" data-aos-duration="3000" data-aos-offset="30">
+              &copy; Muhamad Romdon 2020
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
 </html>
