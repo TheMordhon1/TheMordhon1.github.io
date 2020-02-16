@@ -5,9 +5,6 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-html {
-overflow-x:hidden
-}
 
 body {
     background: url(../img/img-profile/bg.jpg) no-repeat center;
@@ -16,6 +13,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #0f0e17;
 }
 
 .profile-card {
@@ -99,11 +97,11 @@ body {
 
 .tag {
     font-size: 18px;
-    color: #222;
+    color: #8d8d8d;
 }
 
 .bottom-section {
-    background-color: #f1f1f1;
+    background-color: #fffffe;
     padding: 60px 40px;
     position: relative;
     display: flex;
@@ -123,6 +121,18 @@ body {
     height: 20px;
     background-color: #bbb;
     margin: 0 30px;
+}
+
+.left {
+    margin-left: 31px;
+}
+
+.right {
+    margin-right: 1px;
+}
+
+.mid {
+    margin: 0 20px;
 }
 
 .social-media {
@@ -164,7 +174,82 @@ body {
     opacity: 0;
 }
 
+/* Loader */
+
+.load-wrapper {
+    background-color: #fffffe;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    top: 0;
+    bottom: 0;
+}
+
+.load {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -80%);
+    width: 50px;
+    height: 50px;
+}
+
+.load hr {
+    border: 0;
+    margin: 0;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    border-radius: 50%;
+    animation: spin 2s ease infinite
+}
+
+.load :first-child {
+    background: #19A68C;
+    animation-delay: -1.5s
+}
+
+.load :nth-child(2) {
+    background: #F63D3A;
+    animation-delay: -1s
+}
+
+.load :nth-child(3) {
+    background: #FDA543;
+    animation-delay: -0.5s
+}
+
+.load :last-child {
+    background: #193B48
+}
+
+@keyframes spin {
+
+    0%,
+    100% {
+        transform: translate(0)
+    }
+
+    25% {
+        transform: translate(160%)
+    }
+
+    50% {
+        transform: translate(160%, 160%)
+    }
+
+    75% {
+        transform: translate(0, 160%)
+    }
+}
+
 @media (max-width: 500px) {
+    html {
+        overflow: hidden;
+    }
+
     .profile-card {
         width: 500px;
         height: 608px;
