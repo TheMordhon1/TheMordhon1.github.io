@@ -1,6 +1,6 @@
 // Preloader
 $(window).on("load", function () {
-  $(".load").fadeOut("slow");
+  $(".load-wrapper").fadeOut("slow");
 });
 
 
