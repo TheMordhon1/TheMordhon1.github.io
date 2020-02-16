@@ -1,3 +1,10 @@
+// Preloader
+$(window).on("load", function () {
+  $(".load").fadeOut("slow");
+});
+
+
+// get Scrolled
 $(document).scroll(function () {
   $("header").toggleClass(
     "scrolled",
