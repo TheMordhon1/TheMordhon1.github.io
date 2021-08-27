@@ -598,10 +598,12 @@ to {
     background: #ff8e3c;
 }
 @media (max-width: 500px) {
-    .skill_area .skill_item.skill_item: hover {
+    .skill_area .skill_item.skill_item:hover {
     margin-top: 1em;
+    }
 }
-}.skill_area .skill_item.skill_item:hover h4 {
+
+.skill_area .skill_item.skill_item:hover h4 {
     color: #fffffe;
 }
 .skill_area .skill_item.skill_item:hover p {

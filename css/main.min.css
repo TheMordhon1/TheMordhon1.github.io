@@ -619,7 +619,7 @@ to {
  inset -7px -7px 10px #161522;
 }
 @media (max-width: 500px) {
-    .skill_area .skill_item.skill_item: hover {
+    .skill_area .skill_item.skill_item:hover {
     margin-top: 1em;
 }
 }.skill_area .skill_item.skill_item:hover h4 {
