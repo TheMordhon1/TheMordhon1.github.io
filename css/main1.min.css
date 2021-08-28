@@ -732,7 +732,8 @@ to {
     width: 90px;
     right: 0em;
 }
-}footer {
+}
+footer {
     margin: 0 0 0;
 }
 @media (max-width: 500px) {
